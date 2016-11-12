@@ -27,6 +27,7 @@ if __name__ == '__main__':
         print_help()
 
     logger.debug("Start application")
+
     APP = QApplication(sys.argv)
     ui = PM_MainWindow()
     ui.show()
